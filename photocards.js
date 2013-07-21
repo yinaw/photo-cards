@@ -1,7 +1,7 @@
 /**
-* photoCards is a jQuery plugin that animates a set of images as a stack of photos.
+* photocards is a jQuery plugin that animates a set of images as a stack of photos.
 *
-* @name photo-cards
+* @name photocards
 * @version 1.0.0
 * @requires jQuery v1.7+
 * @author 
@@ -29,7 +29,7 @@
         return (degree / SETTINGS.maxRotate) * 6 + "px";
     };
 
-    $.fn.photoCards = function (options) {
+    $.fn.photocards = function (options) {
         return this.each(function () {
             var wrapper = $(this);
 
