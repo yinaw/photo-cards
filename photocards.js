@@ -36,7 +36,7 @@
             wrapper.addClass('photo-album');
 
             var SETTINGS = $.extend({
-                speed: 1000,
+                speed: 500,
                 direction: 'left',
                 distribution: 'exponential',
                 auto: 'none',
