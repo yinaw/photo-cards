@@ -1,0 +1,18 @@
+﻿
+.photo-album
+{
+  position: relative;
+  overflow: visible;
+}
+
+.photo-album li
+{
+    position: absolute;
+    list-style: none;
+    cursor: pointer;
+}
+
+.top
+{
+    z-index: 1000;
+}
